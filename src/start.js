@@ -17,7 +17,7 @@ if(enablePWA) {
 		var options = {
 			body: notifBody,
 			icon: notifImg
-		}
+		};
 		var notif = new Notification(notifTitle, options);
 		setTimeout(exampleNotification, 30000);
 	}
@@ -31,6 +31,6 @@ var gameConfig = {
 		height: 960
 	},
 	scene: [Boot, Preloader, MainMenu, Settings, Story, Game]
-}
+};
 game = new Phaser.Game(gameConfig);
 window.focus();
