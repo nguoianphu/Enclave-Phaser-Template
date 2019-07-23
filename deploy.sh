@@ -38,6 +38,7 @@ cp -R img deploy/
 cp -R screens deploy/
 cp -R sfx deploy/
 cp -R src deploy/
+cp ept.webmanifest deploy/
 
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
